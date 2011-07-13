@@ -67,5 +67,16 @@ $(document).ready(function() {
   
   // hide privacy legend
   $('#user-profile-form legend:contains(privacy)').hide();
+  
+  var moreLikeThisContent = '<span class="tooltip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis mi eu lectus sagittis eu tempor neque condimentum. Etiam vitae.</span>';
+  
+  $(function(){
+	   // only show tooltip for anonymous users
+	   $('#block-level_search-more_like_this').tipTip({
+	     defaultPosition: 'top',
+	     content: moreLikeThisContent,
+	     keepAlive: false,
+	   });
+	  });
 
 });
