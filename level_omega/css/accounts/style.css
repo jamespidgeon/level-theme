@@ -55,7 +55,7 @@
 .widget-block input.button {
 	border: none;
 	border-radius: 5px;
-	background-image: url(/sites/all/themes/level-theme/level_omega/accounts/alert-me-button.png);
+	background-image: url(/sites/all/themes/level-theme/level_omega/css/accounts/alert-me-button.png);
 	background-repeat: repeat-x;	
 	height: 30px;
 	padding: 5px;
@@ -64,7 +64,7 @@
 	cursor: pointer;
 }
 .widget-block input.button:hover {
-	background-image: url(/sites/all/themes/level-theme/level_omega/accounts/alert-me-button-hover.png);
+	background-image: url(/sites/all/themes/level-theme/level_omega/css/accounts/alert-me-button-hover.png);
 }
 #downloads-list .views-row {
 	border-top: none;
@@ -80,7 +80,7 @@
 	top: -80px;
 	width: 490px;
 	height: 80px;
-	background-image: url(/sites/all/themes/level-theme/level_omega/accounts/ajax-loader.gif);
+	background-image: url(/sites/all/themes/level-theme/level_omega/css/accounts/ajax-loader.gif);
 	background-repeat: no-repeat;
  	background-position: center 50px;
 }
