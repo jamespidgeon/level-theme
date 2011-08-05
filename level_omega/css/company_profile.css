@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+#block-level_user-company_viewer_stats .stats_col, .company_statistics .stats_col {
+	width: 220px;
+	float: left;
+	padding: 10px;
+}
+.company_statistics {
+	background-color: #F7F7F7;
+	overflow: auto;
+}
+.stats_col h3 {
+	color: #333;
+	font-size: 12px;
+	font-weight: bold:
+}
+.stats_col img {
+	margin-bottom: 5px;
+}
+.stats_col p {
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+}
+.box_group {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	border: 1px solid #DDDDDD;
+	float: left;
+	margin: 10px 5px 10px 0px;
+	font-family: Georgia, serif;
+	font-size: 30px;
+	color: #0099CC;
+	text-align: center;
+}
+.stats_col .last-child {
+	margin-right: 0px;
+}
+
