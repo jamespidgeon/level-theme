@@ -1,23 +1,27 @@
 @CHARSET "UTF-8";
 
 #block-level_user-company_viewer_stats .stats_col, .company_statistics .stats_col {
-	width: 220px;
+	width: 210px;
 	float: left;
 	padding: 10px;
+	margin-right: 5px;
+}
+#block-level_user-company_viewer_stats .last-child , .company_statistics .last-child {
+	margin-right: 0px;
 }
 .company_statistics {
 	background-color: #F7F7F7;
 	overflow: auto;
 }
-.stats_col h3 {
+.stats_col h3, .improve-stats h3 {
 	color: #333;
 	font-size: 12px;
 	font-weight: bold:
 }
 .stats_col img {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
-.stats_col p {
+.stats_col p, .improve-stats p {
 	font-size: 12px;
 	color: #666;
 	margin-top: 5px;
@@ -34,7 +38,35 @@
 	color: #0099CC;
 	text-align: center;
 }
-.stats_col .last-child {
-	margin-right: 0px;
+.stats_col table {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.stats_col table tr td {
+	padding-bottom: 6px;
+}
+.improve-stats {
+	background-color: #FFF;
+	padding: 10px;
+	float: left;
+	font-size: 12px;
+	margin: 10px;
+}
+.improve-stats p {
+	width: 66%;
+	float: left;
+}
+.improve-stats .addthis_toolbox {
+	float: right;
+	margin-top: 5px;
+}
+#block-level_user-company_viewer_stats h2, #main-content h2 {
+	font-size: 26px;
+	color: #333;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	margin: 10px 0px 20px 10px;
 }
 
