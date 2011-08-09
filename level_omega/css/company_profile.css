@@ -9,6 +9,15 @@
 #main-content .last-child , .company_statistics .last-child {
 	margin-right: 0px;
 }
+#main-content h2 {
+	font-size: 26px;
+	color: #333;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	margin: 10px 0px 20px 10px;
+	width: 950px;
+	float: left;
+}
 .company_statistics {
 	background-color: #F7F7F7;
 	overflow: auto;
@@ -64,15 +73,7 @@
 	float: right;
 	margin-top: 5px;
 }
-#main-content h2 {
-	font-size: 26px;
-	color: #333;
-	font-family: Georgia, serif;
-	font-weight: normal;
-	margin: 10px 0px 20px 10px;
-	width: 950px;
-	float: left;
-}
+
 
 /*////////////////// NEW TABBED SECONDARY NAVIGATION STYLE ///////////////*/
 
