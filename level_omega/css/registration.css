@@ -1,16 +1,14 @@
 @CHARSET "UTF-8";
 /* some changes for the user related paged */
-body.page-user #top_bar,
 body.page-user-login #top_bar,
 body.page-login-opts #top_bar,
 body.page-user-password #top_bar,
 body.page-register #top_bar,
 body.page-user-register #top_bar,
-body.section-users #top_bar,
+body.section-terms #top_bar,
 body.section-linkedin #top_bar {
 	background-color: inherit;
-	padding: 10px 0 0 0;
-
+	padding: 10px 0 10px 0;
 }
 
 body.page-register #main_wrapper {
