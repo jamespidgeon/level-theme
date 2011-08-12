@@ -1088,13 +1088,6 @@ body.section-doc h1#page-title, h1#profile-title {
   width: 220px;
   margin-right: 10px;
 }
-#edit-profile-hide-person-dob-wrapper .description,
-#edit-profile-hide-occupation-wrapper .description,
-#edit-profile-hide-address-wrapper .description,
-#edit-profile-hide-nationality-wrapper .description {
-  float: right;
-  width: 470px;
-}
 
 /* #block-level_user-company_appointments */
 #block-level_user-company_appointments {
@@ -1353,7 +1346,7 @@ ul.primary li.active a:hover {
 #edit-profile-hide-address-wrapper .description,
 #edit-profile-hide-nationality-wrapper .description {
   float: right;
-  width: 470px;
+  width: 450px;
 }
 
 /* #block-level_user-company_appointments */

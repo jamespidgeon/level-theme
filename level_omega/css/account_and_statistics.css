@@ -82,6 +82,10 @@
 	margin: 0;
 	padding: 10px 0 10px 0;
 	width: 220px;
+	position: absolute;
+}
+.level-account-statistics #main_wrapper ul.secondary {
+	position: relative;
 }
 #main_wrapper ul.secondary li {
 	border-right: none;
@@ -109,16 +113,12 @@
 
 /*////////////////// TEMPORARY FORM REALIGNMENT ///////////////*/
 
-form#notifications-user-overview, form#notifications-manage-user-subscriptions {
+.level-my-account form#user-profile-form, form#notifications-user-overview, form#notifications-manage-user-subscriptions, form#linkedin-user-enable-form  {
     float: right;
-    margin-top: -70px;
     width: 680px;
-}
-
-.level-my-account form#user-profile-form {
-    float: right;
-    margin-top: -180px;
-    width: 680px;
+    background-color: #F7F7F7;
+    padding: 10px;
+    min-height: 205px;
 }
 
 
