@@ -921,11 +921,6 @@ body .block-webform  {
 	}
 
 /* Newsletter subscription form */
- #footer_main input#edit-submit {
-  background-color: #000;
-  color: #FFF;
-  border: 0;
-}
 
 #footer_main .form-required {
   display: none;
