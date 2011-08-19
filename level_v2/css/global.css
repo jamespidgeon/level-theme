@@ -1,0 +1,140 @@
+
+/*///////////////////////////////////////////  Header  /////////////////////////////////////////*/
+
+#zone-branding-wrapper {
+	background-color: #333;	
+	padding: 10px 0 5px 5px;
+}
+#zone-menu-wrapper {
+	background-color: #333;
+	padding: 10px 0 5px 0;
+}
+#zone-header-wrapper {
+	background-color: #F5F5F5;
+}
+#region-content h1, .site-name-slogan {
+	display: none;	
+}
+h1.site-name, h2.site-name {
+	font-size: 12px;
+	font-family: Arial,sans-serif;
+	margin: 5px  5px 0;
+}
+h1.site-name a, h2.site-name a {
+	color: #FFF;
+}
+
+/*///////////////////////////////////////////  User Account Menu  /////////////////////////////////////////*/
+
+nav.navigation ul#secondary-menu.links li a {
+	color: #CCC;
+	text-decoration: none;
+}
+nav.navigation ul#secondary-menu.links li a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+/*///////////////////////////////////////////  Search Box Form  /////////////////////////////////////////*/
+
+/* TODO: CHANGE ID TO PERM NAME OF THIS BLOCK */
+#block-block-4 { 
+	padding: 12px 0 12px 0;
+}
+#solr-search-form  br{
+	display: none;
+}
+#solr-search-field {
+    border-color: #CCCCCC -moz-use-text-color #CCCCCC #CCCCCC;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid none solid solid;
+    border-radius:  5px 0px 0px 5px;
+    float: left;
+    font-size: 15px;
+    height: 32px;
+    line-height: 16px;
+    margin: 0;
+    padding: 5px;
+    width: 90%;
+    box-shadow: 0 0 1px #CCC;
+} 
+
+#solr-search-submit {
+    background-image: url('../images/search-box-button.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+    border-color: #CCCCCC #CCCCCC #CCCCCC -moz-use-text-color;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid solid solid none;
+    border-radius:  0px 5px 5px 0px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    width: 9%;
+    float: left;
+    box-shadow: 0 0 1px #CCC;
+}
+#solr-search-submit:hover {
+    box-shadow: 0px 0px 10px #CCC;
+}
+
+/*///////////////////////////////////////////  Search Views Menu  /////////////////////////////////////////*/
+
+#block-menu-menu-search-views {
+	display: none;
+}
+
+/*///////////////////////////////////////////  Search Results  /////////////////////////////////////////*/
+
+#section-content {
+	padding-top: 10px;
+}
+section .container-12 .first-child {
+	margin-left: 0px;	
+}
+section .container-12  .last-child {
+	margin-right: 0px;
+}
+.item-list ul {
+	margin: 0px;
+	padding: 0px;
+}
+.item-list ul li {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.item-list ul div.views-field-title {
+    float: right;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    padding: 5px 5px 5px 0px;
+    width: 70%;
+}
+.item-list ul div.views-field-title a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+.item-list ul div.views-field-body {
+    float: right;
+    width: 70%;
+    text-align: left;
+    overflow: hidden;
+    height: 20px;
+}
+.item-list ul div.views-field-field-img-bkg, .item-list ul div.views-field-field-img-bkg .field-content {
+	height: 60px;
+	overflow: hidden;
+}
+.item-list ul div.views-field-field-img-bkg img {
+    vertical-align: middle;
+    height: 100%;
+}
+.item-list ul li.views-row {
+	border-bottom: 1px solid #EEE;
+}
+
